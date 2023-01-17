@@ -7,5 +7,30 @@
     padding: 50px 120px;
 }
 .banner1{
+    height: 57vh;
+    width: 50vw;
     margin-right: 10px;
+    animation: change 10s infinite ease-in-out;
+    background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/T8KFRAQZrEa0ptImqcxSlURKmEMp2rzggcARfhoD.png');
+    background-size: cover;
+}
+@keyframes change{
+    0%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/T8KFRAQZrEa0ptImqcxSlURKmEMp2rzggcARfhoD.png');
+    }
+    20%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/8OHYcD4EA5hpJqQgtQmNVfLrO0YXspuEDfseTmXX.png');
+    }
+    40%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/T8KFRAQZrEa0ptImqcxSlURKmEMp2rzggcARfhoD.png');
+    }
+    60%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/8OHYcD4EA5hpJqQgtQmNVfLrO0YXspuEDfseTmXX.png');
+    }
+    80%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/T8KFRAQZrEa0ptImqcxSlURKmEMp2rzggcARfhoD.png');
+    }
+    100%{
+        background-image: url('https://xenticebucket21.s3.ap-south-1.amazonaws.com/adv/8OHYcD4EA5hpJqQgtQmNVfLrO0YXspuEDfseTmXX.png');
+    }
 }

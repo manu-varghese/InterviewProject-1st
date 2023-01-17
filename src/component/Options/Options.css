@@ -1,11 +1,6 @@
 
-
-/* .row__poster>a{
-    
-}  */
 .options_main{
     width: 100%;
-    height: 20vh;
 }
 .row__options{
     display: flex;
@@ -13,14 +8,25 @@
     overflow-x: scroll;
     padding-bottom: 20px;
 }
-.row__option > a{
-    padding: 30px 40px;
+.row__option{
+    height: 15vh;
+    width: 100px;
+    margin: 30px 0px 0px 30px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+.row__option > a{
+    padding: 20px;
     text-decoration: none;
     color: #111;
+}
+.row__option > a:hover{
+    transform: scale(1.1);
+}
+.row__option > a{
+    font-size: 14px;
 }
 
 

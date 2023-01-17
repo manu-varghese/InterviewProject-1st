@@ -5,8 +5,13 @@ import Options from './component/Options/Options';
 import Footer from './component/Footer/Footer';
 import Card from './component/Card/Card';
 import Banner from './component/Banner/Banner';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function App() {
+ 
+
+
   return (
     <div className="App">
       <Nav/>
@@ -14,11 +19,6 @@ function App() {
       <Search/>
       <Options/>
       <Banner/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
       <Card/>
       <Footer/>
     </div>
