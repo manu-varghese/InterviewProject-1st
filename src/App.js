@@ -20,6 +20,10 @@ function App() {
       <Options/>
       <Banner/>
       <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
       <Footer/>
     </div>
   );
