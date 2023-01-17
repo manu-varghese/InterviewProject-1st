@@ -1,0 +1,11 @@
+.banner_container{
+    width: 100%;
+    height: 70vh;
+}
+.banner_main{
+    display: flex;
+    padding: 50px 120px;
+}
+.banner1{
+    margin-right: 10px;
+}

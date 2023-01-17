@@ -1,0 +1,20 @@
+.nav2_container{
+    padding: 15px 20px 30px 20px;
+    background-color: #012b72;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav2_container > a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    transition: all 0.2s ease-in-out;
+}
+.nav2_container > a:hover{
+    transform: scale(1.1);
+}
+.nav2_container > a > p{
+    font-size: 12px;
+    color: #dbd9d9;
+}

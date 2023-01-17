@@ -1,0 +1,29 @@
+.nav_container{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 5px 40px;
+}
+.nav_logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav_logo > img{
+    margin-left: 10px;
+}
+.nav_option{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav_option > a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(152, 152, 152);
+}
+.nav_option > a > p{
+    color: rgb(70, 70, 237);
+}
